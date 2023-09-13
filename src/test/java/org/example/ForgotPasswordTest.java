@@ -26,7 +26,7 @@ public class ForgotPasswordTest {
 
 
 
-        driver.quit();
+
 
     }
 }

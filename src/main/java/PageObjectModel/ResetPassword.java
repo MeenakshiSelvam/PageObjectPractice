@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ResetPassword {
     WebDriver ldriver;
-    private static final By FORGOT_PASSWORD = By.className("oxd-text oxd-text--p orangehrm-login-forgot-header");
+    private static final By FORGOT_PASSWORD = By.xpath("(//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header'])[1]");
     private static final By USERNAME = By.xpath("//input[@placeholder='Username']");
     private static final By RESET = By.xpath("//button[normalize-space()='Reset Password']");
 
