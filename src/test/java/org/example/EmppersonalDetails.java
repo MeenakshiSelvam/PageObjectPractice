@@ -30,5 +30,6 @@ public class EmppersonalDetails {
         info.clickMale();
         info.clickSave();
 
+
     }
 }

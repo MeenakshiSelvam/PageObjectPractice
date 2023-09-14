@@ -32,6 +32,7 @@ public class MyInfoPage {
         ldriver.findElement(FIRSTNAME).sendKeys(firstname);
     }
 
+
     public void fillLastname(String lastname) {
 
         ldriver.findElement(LASTNAME).click();
