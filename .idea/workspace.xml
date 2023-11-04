@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94abfd4a-1403-41a7-a10f-b2c577bec9b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/ResetPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AdminTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ForgotPasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/InvalidTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" afterDir="false" />
+    <list default="true" id="94abfd4a-1403-41a7-a10f-b2c577bec9b1" name="Changes" comment="page object-Myinfo and test class">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/LoginPage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectModel/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjectModel/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +44,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Meenakshi/IdeaProjects/PageObjectPractice1",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.ForgotPasswordTest">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="PageObjectModel" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AdminTest">
     <configuration name="AdminTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AdminTest" />
       <module name="PageObjectPractice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="PageObjectModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmppersonalDetails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.EmppersonalDetails" />
+      <module name="PageObjectPractice1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PageObjectModel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,7 +93,7 @@
       <module name="PageObjectPractice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="PageObjectModel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,7 +106,7 @@
       <module name="PageObjectPractice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="PageObjectModel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +119,7 @@
       <module name="PageObjectPractice1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="PageObjectModel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,10 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdminTest" />
+        <item itemvalue="Application.UserTest" />
+        <item itemvalue="Application.EmppersonalDetails" />
         <item itemvalue="Application.ForgotPasswordTest" />
         <item itemvalue="Application.InvalidTest" />
-        <item itemvalue="Application.UserTest" />
-        <item itemvalue="Application.AdminTest" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +146,42 @@
       <option name="presentableId" value="Default" />
       <updated>1694494380405</updated>
     </task>
+    <task id="LOCAL-00001" summary="page object">
+      <created>1694504489368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694504489368</updated>
+    </task>
+    <task id="LOCAL-00002" summary="page object">
+      <created>1694504518550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694504518550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="page object-forgot pwd">
+      <created>1694578545806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694578545806</updated>
+    </task>
+    <task id="LOCAL-00004" summary="page object-Myinfo and test class">
+      <created>1694670386992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694670386992</updated>
+    </task>
+    <task id="LOCAL-00005" summary="page object-Myinfo and test class">
+      <created>1694670426225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694670426225</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,5 +194,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes added" />
+    <MESSAGE value="page object" />
+    <MESSAGE value="page object-forgot pwd" />
+    <MESSAGE value="page object-Myinfo and test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="page object-Myinfo and test class" />
   </component>
 </project>

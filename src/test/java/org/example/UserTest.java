@@ -20,12 +20,13 @@ public class UserTest {
         DashboardPage dashboardPage = new DashboardPage(driver);
 
 
-        loginPage.fillUsername("meenakshi");
+        loginPage.fillUsername("Admin");
         loginPage.fillPassword("admin123");
         loginPage.clickLogin();
 
 
         dashboardPage.verifyDashboard();
+        System.out.println(dashboardPage.getHeading());
 
 
 
